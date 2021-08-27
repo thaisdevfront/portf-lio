@@ -1,5 +1,14 @@
 body{
-    background-color:#adadad;
+    background-color:#272727;
+}
+.progress {
+    display: flex;
+    height: 2px;
+}    
+p {
+    margin-top: 15px;
+    margin-bottom: 2rem;
+    font-size: 11px;
 }
 #habilidades{
     background-color: #FFFFFF;
