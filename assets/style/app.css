@@ -4,7 +4,8 @@ body{
 .progress {
     display: flex;
     height: 2px;
-}    
+}
+    
 p {
     margin-top: 15px;
     margin-bottom: 2rem;
