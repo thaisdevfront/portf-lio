@@ -1,15 +1,37 @@
-body{
+/* body{
+    background-color:#272727;
+} */
+#dev{
+    background-color:#272727;
+}
+#art-live{
+    background-color:#272727;
+}
+#sobre_mim{
     background-color:#272727;
 }
 .progress {
     display: flex;
     height: 2px;
 }
+.h1{
+    font-family: 'Roboto';font-size: 22px;
+}
+h2.h1.fs-1.fw-bolder.mb-2 {
+    color: black;
+}
     
 p {
     margin-top: 15px;
     margin-bottom: 2rem;
     font-size: 11px;
+}
+#hipe{
+    background-image: url(../public/background.png);
+    height: 460px; 
+    background-position: right; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 #habilidades{
     background-color: #FFFFFF;
@@ -90,13 +112,13 @@ footer {
 
 }
 @media (max-width: 425px) {
-    #banner {
-        background-image: url(../public/bnn_mobl.png);
-        height: 90vh; 
+    #hipe{
+        background-image: url(../public/iPhone\ 8\ Plus\ -\ 1.png);
+        height: 100vh; 
         background-position: right; 
         background-repeat: no-repeat; 
         background-size: cover;
-      }
+    }
       h1.h1.fw-bolder {
         margin-top: 60px;
         font-size: 1.55rem;
@@ -105,10 +127,10 @@ footer {
 
 
     #banner_ilustração {
-        background-image: url(../public/iPhone\ 8\ Plus\ -\ 1.png);
-        height: 360px; 
-        background-position: right; 
-        background-repeat: no-repeat; 
+        background-image: url(../public/iPad\ mini\ -\ 1.png);
+        height: 568px;
+        background-position: right;
+        background-repeat: no-repeat;
         background-size: cover;
     }
     section#design_ux_ui{
@@ -126,15 +148,11 @@ footer {
         color: darkmagenta;
     }
 
-    #banner_ilustração {
+    /* #banner_ilustração {
         background-image: url(../public/iPad\ mini\ -\ 1.png);
         height: 318px; 
         background-position: inherit; 
         background-repeat: no-repeat; 
         background-size: cover;
-    } 
-}
-
-@media (max-width: 1024px){
-    
+    }  */
 }
