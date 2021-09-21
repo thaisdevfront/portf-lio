@@ -183,11 +183,11 @@ h2.h1.fs-1.fw-bolder.mb-2 {
 p {
     margin-top: 15px;
     margin-bottom: 2rem;
-    font-size: 11px;
+    font-size: 13px;
 }
 #hipe{
-    background-image: url(../public/back_desk\).png);
-    height: 460px; 
+    background-image: url(../public/bnnr_top.png);
+    height: 540px; 
     background-position: right; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -269,6 +269,13 @@ section#design_ux_ui{
 footer {
     background-color: black;
 
+}
+img.img-fluid.log-m {
+    width: 80px;
+}
+.bg-light {
+    background-color: transparent !important;
+    position: absolute;
 }
 @media (max-width: 425px) {
     #hipe{
