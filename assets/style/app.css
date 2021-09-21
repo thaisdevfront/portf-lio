@@ -27,7 +27,7 @@ p {
     font-size: 11px;
 }
 #hipe{
-    background-image: url(../public/background.png);
+    background-image: url(../public/back_desk\).png);
     height: 460px; 
     background-position: right; 
     background-repeat: no-repeat; 
@@ -113,7 +113,7 @@ footer {
 }
 @media (max-width: 425px) {
     #hipe{
-        background-image: url(../public/iPhone\ 8\ Plus\ -\ 1.png);
+        background-image: url(../public/back_mobil.png);
         height: 100vh; 
         background-position: right; 
         background-repeat: no-repeat; 
