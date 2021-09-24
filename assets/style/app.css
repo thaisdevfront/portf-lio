@@ -91,6 +91,21 @@ img.img-fluid.log-m {
 .log {
     width: 180px;
 }
+img.img-fluid.log-a {
+    width: 20px;
+}
+
+a.nav-link.text-white.btn-m {
+    background-color: white;
+    color: black !important;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-muted{
+    color: #52595f !important;
+}
 
 @media (max-width: 425px) {
     #hipe{
