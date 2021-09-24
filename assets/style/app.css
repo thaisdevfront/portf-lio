@@ -1,31 +1,7 @@
 /* body{
     background-color:#272727;
 } */
-#dev{
-    background-color:#272727;
-}
-#art-live{
-    background-color:#272727;
-}
-#sobre_mim{
-    background-color:#272727;
-}
-.progress {
-    display: flex;
-    height: 2px;
-}
-.h1{
-    font-family: 'Roboto';font-size: 22px;
-}
-h2.h1.fs-1.fw-bolder.mb-2 {
-    color: black;
-}
-    
-p {
-    margin-top: 15px;
-    margin-bottom: 2rem;
-    font-size: 11px;
-}
+
 #hipe{
     background-image: url(../public/bnnr_top.png);
     height: 460px; 
@@ -33,148 +9,20 @@ p {
     background-repeat: no-repeat; 
     background-size: cover;
 }
-#habilidades{
-    background-color: #FFFFFF;
-}
-a:link {
-    text-decoration: none;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  a:active {
-    text-decoration: underline;
-  }
-.btn-primary-m{
-    padding: .375rem 2.75rem;
-    background-color: black;
-    color: white;
-}
-div#navbarNavDropdown {
-    justify-content: flex-end;
-}
-
-
-
-nav.navbar.navbar-expand-md.navbar-transparent.position-absolute.w-100 {
-    z-index: 9999;
-}
-
-nav.navbar.fixed-bottom.d-flex.d-block.d-sm-none{
-    background-color: rgb(0 0 0 / 45%)!important;
-}
-
-#habilidades .col.mt-2.mb-2 {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-/* #banner {
-    background-image: url(../public/Desktop\ -\ 1.png);
-    height: 90vh; 
-    background-position: bottom; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-  } */
-
-
-#banner_ilustração {
-  background-image: url(../public/banner_ilustracao_desk.png);
-  height: 360px; 
-  background-position: right; 
-  background-repeat: no-repeat; 
-  background-size: cover;
-}
-section#design_ux_ui{
-    background-image: url(../public/Group\ 1358.png);
-    height: 360px; 
-    background-position: right; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-#skills{
-    background-color: darkmagenta;
-
-}
-.progress-bar{
-    background-color: darkorchid;
-}
 
 footer {
     background-color: black;
 
 }
-@media (max-width: 425px) {
-    #hipe{
-        background-image: url(../public/back_mobil.png);
-        height: 100vh; 
-        background-position: right; 
-        background-repeat: no-repeat; 
-        background-size: cover;
-    }
-      h1.h1.fw-bolder {
-        margin-top: 60px;
-        font-size: 1.55rem;
-        color: darkmagenta;
-    }
-
-
-    #banner_ilustração {
-        background-image: url(../public/iPad\ mini\ -\ 1.png);
-        height: 568px;
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    section#design_ux_ui{
-        background-image: url(../public/Group\ 1358.png);
-        height: 370px; 
-        background-position: center; 
-        background-repeat: no-repeat; 
-        background-size: cover;
-    }
-}
-@media (max-width: 768px){
-    h1.h1.fw-bolder {
-        margin-top: 80px;
-        font-size: 3.25rem;
-        color: darkmagenta;
-    }
-
-    /* #banner_ilustração {
-        background-image: url(../public/iPad\ mini\ -\ 1.png);
-        height: 318px; 
-        background-position: inherit; 
-        background-repeat: no-repeat; 
-        background-size: cover;
-    }  */
-}
-
-/* body{
-    background-color:#272727;
-} */
-#dev{
-    background-color:#272727;
-}
-#art-live{
-    background-color:#272727;
-}
-#sobre_mim{
-    background-color:#272727;
+.progress-bar {
+    background-color: #000000;
 }
 .progress {
     display: flex;
     height: 2px;
 }
-.h1{
-    font-family: 'Roboto';font-size: 22px;
+.h1.h2 p  {
+    font-family: 'Oswald';font-size: 22px;
 }
 h2.h1.fs-1.fw-bolder.mb-2 {
     color: black;
@@ -187,7 +35,7 @@ p {
 }
 #hipe{
     background-image: url(../public/bnnr_top.png);
-    height: 540px; 
+    height: 597px; 
     background-position: right; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -219,8 +67,6 @@ div#navbarNavDropdown {
     justify-content: flex-end;
 }
 
-
-
 nav.navbar.navbar-expand-md.navbar-transparent.position-absolute.w-100 {
     z-index: 9999;
 }
@@ -234,37 +80,6 @@ nav.navbar.fixed-bottom.d-flex.d-block.d-sm-none{
     align-content: center;
     justify-content: center;
 }
-/* #banner {
-    background-image: url(../public/Desktop\ -\ 1.png);
-    height: 90vh; 
-    background-position: bottom; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-  } */
-
-
-#banner_ilustração {
-  background-image: url(../public/banner_ilustracao_desk.png);
-  height: 360px; 
-  background-position: right; 
-  background-repeat: no-repeat; 
-  background-size: cover;
-}
-section#design_ux_ui{
-    background-image: url(../public/Group\ 1358.png);
-    height: 360px; 
-    background-position: right; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-#skills{
-    background-color: darkmagenta;
-
-}
-.progress-bar{
-    background-color: darkorchid;
-}
 
 footer {
     background-color: black;
@@ -273,53 +88,27 @@ footer {
 img.img-fluid.log-m {
     width: 80px;
 }
-.bg-light {
-    background-color: transparent !important;
-    position: absolute;
+.log {
+    width: 180px;
 }
+
 @media (max-width: 425px) {
     #hipe{
-        background-image: url(../public/back_mobil.png);
+        background-image: url(../public/bnnr_mobile.png);
         height: 100vh; 
         background-position: right; 
         background-repeat: no-repeat; 
         background-size: cover;
     }
-      h1.h1.fw-bolder {
-        margin-top: 60px;
-        font-size: 1.55rem;
-        color: darkmagenta;
-    }
-
-
-    #banner_ilustração {
-        background-image: url(../public/iPad\ mini\ -\ 1.png);
-        height: 568px;
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    section#design_ux_ui{
-        background-image: url(../public/Group\ 1358.png);
-        height: 370px; 
-        background-position: center; 
-        background-repeat: no-repeat; 
-        background-size: cover;
-    }
 }
 @media (max-width: 768px){
-    h1.h1.fw-bolder {
-        margin-top: 80px;
-        font-size: 3.25rem;
-        color: darkmagenta;
+    
+
+}
+@media (min-width: 1024px){
+    .tit{
+        font-size: 76px !important;
+}
     }
 
-    /* #banner_ilustração {
-        background-image: url(../public/iPad\ mini\ -\ 1.png);
-        height: 318px; 
-        background-position: inherit; 
-        background-repeat: no-repeat; 
-        background-size: cover;
-    }  */
-}
 
