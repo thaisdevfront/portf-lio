@@ -9,6 +9,16 @@
     background-repeat: no-repeat; 
     background-size: cover;
 }
+#swiper .container {
+    background-color:#eeeeee;
+}
+.swiper-button-next {
+    color: black !important;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: black !important;
+}
 
 footer {
     background-color: black;
