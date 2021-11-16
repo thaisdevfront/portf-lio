@@ -61,6 +61,9 @@ p {
 #habilidades{
     background-color: #FFFFFF;
 }
+#design_ux_ui {
+    background-color: white;
+}
 a:link {
 
     text-decoration: none;
@@ -174,6 +177,10 @@ a.nav-link.text-white.btn-m {
 @media (min-width: 1024px){
     .tit{
         font-size: 76px !important;
+}
+.d-flex {
+    display: flex!important;
+    justify-content: space-between;
 }
     }
 
