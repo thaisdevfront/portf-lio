@@ -153,7 +153,7 @@ a.nav-link.text-white.btn-m {
 }
 @media (max-width: 768px){
     .btn-primary-m {
-        padding: 7px 40px;
+        padding: -1px 40px;
         background-color: black;
         color: white;
     }
