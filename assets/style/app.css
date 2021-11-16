@@ -157,6 +157,12 @@ a.nav-link.text-white.btn-m {
         background-color: black;
         color: white;
     }
+    .btn-primary-m {
+        padding: 6px 40px !important;
+        background-color: black;
+        color: white;
+    }
+
     .d-flex {
         display: flex!important;
         justify-content: space-between;
