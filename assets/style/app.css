@@ -2,6 +2,16 @@
     background-color:#272727;
 } */
 
+*{
+    transition:.3s;
+}
+#criativo{
+    background-image: url(../public/bnnr_top-criativo.png);
+    height: 597px; 
+    background-position: right; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
 #hipe{
     background-image: url(../public/bnnr_top.png);
     height: 460px; 
@@ -125,14 +135,21 @@ a.nav-link.text-white.btn-m {
     padding-right: 20px;
 }
 
-.text-muted{
-    color: #52595f !important;
-}
+/* .text-muted {
+    color: #b8b8b8 !important;
+} */
 
 @media (max-width: 425px) {
+    #criativo{
+        background-image: url(../public/bnnr_mobile-criativo.png);
+        height: 60vh; 
+        background-position: right; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
     #hipe{
         background-image: url(../public/bnnr_mobile.png);
-        height: 100vh; 
+        height: 60vh; 
         background-position: right; 
         background-repeat: no-repeat; 
         background-size: cover;
