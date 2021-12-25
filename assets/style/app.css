@@ -220,11 +220,21 @@ a.nav-link.text-white.btn-m {
 }
 #hipe{
     background-image: url(../public/bnr.png);
-    height: 510px; 
+    height: 531px; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
 }
-    }
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 170vh;
+    margin-left: 100px !important;
+}
+
+}
 
 
