@@ -5,6 +5,21 @@
 *{
     transition:.3s;
 }
+.pt-5 {
+    padding-top: 5rem!important;
+}
+.pb-5 {
+    padding-bottom: 5rem!important;
+}
+@media (min-width: 768px) {
+    #hipe{
+        background-image: url(../public/bnr.png);
+        height: 370px; 
+        background-position: right; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+}
 #criativo{
     background-image: url(../public/bnnr_top-criativo.png);
     height: 597px; 
@@ -12,13 +27,7 @@
     background-repeat: no-repeat; 
     background-size: cover;
 }
-#hipe{
-    background-image: url(../public/bnnr_top.png);
-    height: 460px; 
-    background-position: right; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
+
 #swiper .container {
     background-color:#eeeeee;
 }
@@ -61,13 +70,7 @@ p {
     margin-bottom: 2rem;
     font-size: 13px;
 }
-#hipe{
-    background-image: url(../public/bnnr_top.png);
-    height: 597px; 
-    background-position: right; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
+
 #habilidades{
     background-color: #FFFFFF;
 }
@@ -141,7 +144,7 @@ a.nav-link.text-white.btn-m {
 
 @media (max-width: 425px) {
     #criativo{
-        background-image: url(../public/bnnr_mobile-criativo.png);
+        /* background-image: url(../public/bnnr_mobile-criativo.png); */
         height: 60vh; 
         background-position: right; 
         background-repeat: no-repeat; 
@@ -149,7 +152,7 @@ a.nav-link.text-white.btn-m {
     }
     #hipe{
         background-image: url(../public/bnnr_mobile.png);
-        height: 60vh; 
+        height: 90vh; 
         background-position: right; 
         background-repeat: no-repeat; 
         background-size: cover;
@@ -197,6 +200,7 @@ a.nav-link.text-white.btn-m {
     }
 
 }
+
 @media (min-width: 1024px){
     .tit{
         font-size: 76px !important;
@@ -204,6 +208,13 @@ a.nav-link.text-white.btn-m {
 .d-flex {
     display: flex!important;
     justify-content: space-between;
+}
+#hipe{
+    background-image: url(../public/bnr.png);
+    height: 510px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
     }
 
