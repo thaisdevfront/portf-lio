@@ -79,7 +79,7 @@ p {
 }
 a:link {
 
-    text-decoration: none;
+    text-decoration: none !important;
   }
   
   a:visited {
@@ -93,6 +93,15 @@ a:link {
   a:active {
     text-decoration: underline;
   }
+
+  .btn:hover {
+      background-color: blueviolet !important;
+  }
+  .text-dark {
+    color: blueviolet!important;
+}
+
+
 .btn-primary-m{
     padding: .375rem 2.75rem;
     background-color: black;
