@@ -138,7 +138,9 @@ img.img-fluid.log-m {
 img.img-fluid.log-a {
     width: 20px;
 }
-
+img.img-nav {
+    width: 60px;
+}
 a.nav-link.text-white.btn-m {
     background-color: white;
     color: black !important;
@@ -149,8 +151,12 @@ a.nav-link.text-white.btn-m {
 
 /* .text-muted {
     color: #b8b8b8 !important;
-} */
 
+} */
+.navbar-light .navbar-toggler {
+    color: rgb(248 249 250);
+    border-color: rgb(0 0 0 / 0%);
+}
 @media (max-width: 425px) {
     #criativo{
         /* background-image: url(../public/bnnr_mobile-criativo.png); */
@@ -161,7 +167,7 @@ a.nav-link.text-white.btn-m {
     }
     #hipe{
         background-image: url(../public/bnnr_mobile.png);
-        height: 90vh; 
+        height: 122vh; 
         background-position: right; 
         background-repeat: no-repeat; 
         background-size: cover;
@@ -220,7 +226,7 @@ a.nav-link.text-white.btn-m {
 }
 #hipe{
     background-image: url(../public/bnr.png);
-    height: 531px; 
+    height: 611px; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
