@@ -11,6 +11,10 @@
 .pb-5 {
     padding-bottom: 5rem!important;
 }
+button:focus:not(:focus-visible) {
+    outline: transparent;
+    display: contents;
+}
 @media (min-width: 768px) {
     #hipe{
         background-image: url(../public/bnr.png);
@@ -221,10 +225,10 @@ div#navbarNavAltMarkup {
         padding-right: 38px;
     }
     
-    swiper-button-next, .swiper-rtl .swiper-button-prev {
+    /* swiper-button-next, .swiper-rtl .swiper-button-prev {
         right: 21px;
         left: auto;
-    }
+    } */
 
 }
 
