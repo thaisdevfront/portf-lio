@@ -119,6 +119,7 @@ nav.navbar.fixed-bottom.d-flex.d-block.d-sm-none{
     background-color: rgb(0 0 0 / 45%)!important;
 }
 
+
 #habilidades .col.mt-2.mb-2 {
     display: flex;
     align-content: center;
@@ -147,6 +148,13 @@ a.nav-link.text-white.btn-m {
     border-radius: 30px;
     padding-left: 20px;
     padding-right: 20px;
+}
+a.nav-link {
+    color: black;
+}
+div#navbarNavAltMarkup {
+    justify-content: end;
+    padding-right: 60px;
 }
 
 /* .text-muted {
@@ -185,6 +193,9 @@ a.nav-link.text-white.btn-m {
         display: flex!important;
         justify-content: space-between;
     }
+    button.navbar-toggler {
+        padding-left: 175px;
+    }
 }
 @media (max-width: 768px){
     .btn-primary-m {
@@ -209,6 +220,7 @@ a.nav-link.text-white.btn-m {
         padding-left: 38px;
         padding-right: 38px;
     }
+    
     swiper-button-next, .swiper-rtl .swiper-button-prev {
         right: 21px;
         left: auto;
@@ -219,6 +231,10 @@ a.nav-link.text-white.btn-m {
 @media (min-width: 1024px){
     .tit{
         font-size: 76px !important;
+}
+div#navbarNavAltMarkup {
+    justify-content: end;
+    padding-right: 60px;
 }
 .d-flex {
     display: flex!important;
