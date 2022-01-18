@@ -285,7 +285,6 @@ div#navbarNavAltMarkup {
 }
 div#navbarNavAltMarkup {
     justify-content: end;
-    padding-right: 60px;
 }
 .d-flex {
     display: flex!important;
