@@ -7,6 +7,38 @@ transition:.3s;
 }
 
 @media (min-width: 320px) {
+    
+    #hipe{
+        background-image: url(../public/bnnr_mobile.png);
+        height: 560px; 
+        background-position: right; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+}
+@media (max-width: 768px) {
+    
+    #hipe {
+        /* background-image: url(../public/bnr.png); */
+        height: 510px;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (min-width: 1024px){
+    
+    #hipe {
+        background-image: url(../public/bnr.png);
+        height: 840px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+@media (min-width: 320px) {
 
     /* tamanho de fonts */
     .title-m h1.h1-m.fs-1.mt-3.mb-2 {
@@ -35,19 +67,14 @@ transition:.3s;
     }
     
     /* imagens */
-    #hipe{
-        background-image: url(../public/bnnr_mobile.png);
-        height: 90vh; 
-        background-position: right; 
-        background-repeat: no-repeat; 
-        background-size: cover;
-    }
+    
    /* links */
     a:link {
         font-size: 14px;
         text-decoration: none;
     }
     /* alinhamento */
+    
     .d-flex {
         display: flex!important;
         justify-content: space-between;
@@ -56,13 +83,6 @@ transition:.3s;
 }
 @media (max-width: 768px) {
     /* imagens */
-#hipe {
-    /* background-image: url(../public/bnr.png); */
-    height: 480px !important;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 img.img-colonial {
     width: 280px;
 }
@@ -96,13 +116,7 @@ a.nav-link.text-white.btn-m {
     img.img-colonial {
         width: 400px;
     }
-    #hipe {
-        background-image: url(../public/bnr.png);
-        height: 840px !important;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+   
     /* tamanho de font */
     .tit{
         font-size: 76px !important;
@@ -154,6 +168,12 @@ h6.card-subtitle.mb-2.text-muted{
 }
 h6.title-skills {
     color: #c5a8b0;
+}
+a.nav-link.zoom-in-out-box:hover{
+    color: #C5A8B0;
+}
+a.nav-link.text-white.zoom-in-out-box:hover{
+    color: #C5A8B0;
 }
 p {
     margin-top: 15px;
@@ -221,13 +241,6 @@ a:link {
 
 /* imagens */
 
-#hipe {
-    background-image: url(../public/bnr.png);
-    height: 840px !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 /* backgrounds */
 #swiper .container {
     background-color:#eeeeee;
