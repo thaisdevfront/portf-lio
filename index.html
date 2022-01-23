@@ -14,6 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style/app.css">
+    <link rel="stylesheet" href="assets/style/animation.css">
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SPYB7KMWKY"></script>
@@ -36,13 +37,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="index.html">Página inicial</a>
-          <a class="nav-link" href="#dev">Novo</a>
-          <a class="nav-link" href="#galery">Galeria</a>
-          <a class="nav-link" href="#habilidades">Habilidades</a>
-          <a class="nav-link" href="#skills">Software Skills</a>
-          <a class="nav-link" href="#sobre_mim">Sobre</a>
-          <button type="button" class="btn btn-primary-m nav-link rounded-pill"><a class="text-white" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"> <img src="assets/public/icons_nav/WhatsApp.png" alt="">  Fale comigo</a></button>
+          <a class="nav-link active  zoom-in-out-box" aria-current="page" href="index.html">Página inicial</a>
+          <a class="nav-link  zoom-in-out-box" href="#dev">Novo</a>
+          <a class="nav-link  zoom-in-out-box" href="#galery">Galeria</a>
+          <a class="nav-link  zoom-in-out-box" href="#habilidades">Habilidades</a>
+          <a class="nav-link  zoom-in-out-box" href="#skills">Skills</a>
+          <a class="nav-link  zoom-in-out-box" href="#sobre_mim">Sobre</a>
+          <button type="button" class="btn btn-primary-m nav-link rounded-pill  zoom-in-out-box"><a class="text-white" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"> <img src="assets/public/icons_nav/WhatsApp.png" alt="">  Fale comigo</a></button>
 
         </div>
       </div>
@@ -53,13 +54,23 @@
   <div id="hipe">
     <div class="container pt-5 pb-5">
       <div class="row">
-        <div class="col-md-12">
-          <div class="title-m mt-3">
+        <div class="col-md-7  zoom-in-out-box">
+          <div class="title-m mt-3 ">
             <h1 class="h1 fs-1  mb-2">
               Revolucionar <strong>Negócios</strong> e<br><strong>impactar pessoas!</strong> 
             </h1>
             <p class="h6 pt-3 mt-sm-2 mb-2">Resolvendo desáfios complexos através<br>
               da Cultura da Tecnologia</p>
+          </div>
+          <div class="col-md-3 social-midia">
+            <div class="d-flex justify-content-evenly pt-2">
+
+              <a class="icon-social  zoom-in-out-box" href="https://www.linkedin.com/in/thais-mariano-712340216/"  target="_blank" rel="noopener noreferrer"><img src="assets/public/icons_nav/Linkedin-black.png" alt=""></a>
+              <a class="icon-social zoom-in-out-box" href="https://twitter.com/Thas71977957"  target="_blank" rel="noopener noreferrer"><img src="assets/public/icons_nav/Twitter-black.png" alt=""></a>
+              <a class="icon-social zoom-in-out-box" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><img src="assets/public/icons_nav/WhatsApp-black.png" alt=""></a>
+  
+            </div>
+  
           </div>
         </div>
       </div>
@@ -70,7 +81,7 @@
         <div class="row align-items-center pt-4 mb-4">
           <div class="col-md-7">
 
-            <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Rocket.png" alt=""></span>
+            <span class="badge badge-secondary zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Rocket.png" alt=""></span>
             <h2 class="h1 fs-1  mb-2">Solucionar problemas<br>com <strong>idéias criativas!</strong></h2>
             <p class="h5 text-muted">Tenho conhecimento em implementação e atualizações na
               estética do produto na usabilidade
@@ -83,19 +94,21 @@
         </div>
         <div class="row pt-2">
             <div class="col mt-2 mb-2">
-                <div class="card shadow border-0 p-2" style="width: 18rem; height: 18rem; border-radius: 15px;">
+                <div class="card shadow border-0 p-2" style="width: 18rem; height: 20rem; border-radius: 15px;">
                     <div class="card-body mt-4 mb-4">
                       
-                      <span class="badge badge-secondary pb-3"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
-                      <h5 class="card-title ">Design <strong>Criativo!</strong></h5>
+                      <span class="badge badge-secondary pb-3  zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
+                      <h5 class="card-title">Design <strong>Criativo!</strong></h5>
                       <h6 class="card-subtitle mb-2 text-muted">Identidade Vizual.</h6>
                       <p class="card-text text-muted">Peças de públicidade gráficas, para empresas de 
                         grande ou pequeno porte.</p>
                       <!-- Button trigger modal -->
                       <div class="row">
+                        
                         <button type="button" class="btn btn-primary-m rounded-pill text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="text-white">
                           Veja Mais
                         </button>
+                        
                       </div>
                      
 
@@ -105,41 +118,103 @@
                           <div class="modal-content">
                             <div class="modal-header">
                               <h5 class="modal-title card-title " id="staticBackdropLabel">Design Criativo</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              <button type="button" class="btn-close zoom-in-out-box" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                               <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
+                                
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="assets/public/jobs/ariel-tattoo/logo_ariel-tatto.png" class="d-block w-100" alt="...">
-                                   
+                                    <div class="col mt-2 mb-2">
+                                      <div class="card shadow border-0 p-2" style="width: 18rem; height: 20rem; border-radius: 15px;">
+                                          <div class="card-body mt-4 mb-4">
+                                            
+                                            <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
+                                            <h5 class="card-title ">Design <strong>Criativo!</strong></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">
+                                              Logo - Ariel Tatto.
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                              Logo - Criado e finalizado para identidade visual de uma tatuadora, Com excelentes elogios :)
+                                            </p>
+                                            <!-- Button trigger modal -->
+                                            <div class="row">
+                                              <button type="button" class="btn btn-primary-m rounded-pill text-white zoom-in-out-box">
+                                                <a class="text-white" target="_blank" href="https://twitter.com/Thas71977957/status/1475508983179976705" rel="noopener noreferrer">
+                                                  Veja Material
+                                                </a>
+                                              </button>
+                                            </div>
+                                           
+                                          </div>
+                                      </div>
+                                    </div>
                                   </div>
                                   <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="assets/public/jobs/cantao da barra/logo_cantaodabarra.png" class="d-block w-100" alt="...">
-                                   
+                                    <div class="col mt-2 mb-2">
+                                      <div class="card shadow border-0 p-2" style="width: 18rem; height: 20rem; border-radius: 15px;">
+                                          <div class="card-body mt-4 mb-4">
+                                            
+                                            <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
+                                            <h5 class="card-title ">Design <strong>Criativo!</strong></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">
+                                              Logo - Cantão Da Barra.
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                              Logo - Criado e finalizado para identidade visual para empresa de Lazer, Com excelentes elogios :)
+                                            </p>
+                                            <!-- Button trigger modal -->
+                                            <div class="row">
+                                              <button type="button" class="btn btn-primary-m rounded-pill text-white zoom-in-out-box">
+                                                <a class="text-white" target="_blank" href="https://twitter.com/Thas71977957/status/1475508009891729413" rel="noopener noreferrer">
+                                                  Veja Material
+                                                </a>
+                                              </button>
+                                            </div>
+                                           
+                                          </div>
+                                      </div>
+                                    </div>
                                   </div>
                                   <div class="carousel-item">
-                                    <img src="assets/public/jobs/cantao da barra/modelo-camiseta_cantaodabarra.png" class="d-block w-100" alt="...">
-                                   
+                                    <div class="col mt-2 mb-2">
+                                      <div class="card shadow border-0 p-2" style="width: 18rem; height: 20rem; border-radius: 15px;">
+                                          <div class="card-body mt-4 mb-4">
+                                            
+                                            <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
+                                            <h5 class="card-title ">Design <strong>Criativo!</strong></h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">
+                                              Uniforme - Cantão Da Barra.
+                                            </h6>
+                                            <p class="card-text text-muted">
+                                              Uniforme - Criado e finalizado para identidade visual para empresa de Lazer, Com excelentes elogios :)
+                                            </p>
+                                            <!-- Button trigger modal -->
+                                            <div class="row">
+                                              <button type="button" class="btn btn-primary-m rounded-pill text-white zoom-in-out-box">
+                                                <a class="text-white" target="_blank" href="https://twitter.com/Thas71977957/status/1475508009891729413" rel="noopener noreferrer">
+                                                  Veja Material
+                                                </a>
+                                              </button>
+                                            </div>
+                                           
+                                          </div>
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                <button class="carousel-control-prev zoom-in-out-box" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                <button class="carousel-control-next zoom-in-out-box" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Next</span>
                                 </button>
                               </div>
                             </div>
                             <div class="modal-footer">
-                              <button type="button" class="btn btn-primary-m rounded-pill" data-bs-dismiss="modal">Fechar</button>
+                              <button type="button" class="btn btn-primary-m rounded-pill text-white zoom-in-out-box" data-bs-dismiss="modal">Fechar</button>
                             </div>
                           </div>
                         </div>
@@ -148,11 +223,11 @@
                   </div>
             </div>
             <div class="col mt-2 mb-2">
-                <div class="card shadow border-0 p-2" style="width: 18rem; height: 18rem; border-radius: 15px;">
+                <div class="card shadow border-0 p-2" style="width: 18rem; height: 20rem; border-radius: 15px;">
                     <div class="card-body mt-4 mb-4">
 
-                      <span class="badge badge-secondary pb-3"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
-                      <h5 class="card-title ">Design <strong>Ux Ui!</strong></h5>
+                      <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
+                      <h5 class="card-title">Design <strong>Ux Ui!</strong></h5>
                       <h6 class="card-subtitle mb-2 text-muted">interface do usuário.</h6>
                       <p class="card-text text-muted">Criação e implementação de 
                         landign pages e SPAs.
@@ -164,11 +239,11 @@
                   </div>
             </div>
             <div class="col mt-2 mb-2">
-                <div class="card shadow border-0 p-2" style="width: 18rem; height: 18rem; border-radius: 15px;">
+                <div class="card shadow border-0 p-2" style="width: 18rem; height: 20rem; border-radius: 15px;">
                     <div class="card-body mt-4 mb-4">
 
-                      <span class="badge badge-secondary pb-3"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
-                      <h5 class="card-title ">Dev. <strong>front-end!</strong></h5>
+                      <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
+                      <h5 class="card-title">Dev. <strong>front-end!</strong></h5>
                       <h6 class="card-subtitle mb-2 text-muted">Design UI para E-coomerce.</h6>
                       <p class="card-text text-muted">Criação e aplicações focadas na 
                         Ui e na UX para E-commerce.</p>
@@ -189,18 +264,18 @@
             <div class="col-md-6">
               <div class="pb-5">
 
-                <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Bullhorn.png" alt=""></span>
+                <span class="badge badge-secondary  zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Bullhorn.png" alt=""></span>
                 <h2 class="fs-1 h1  mb-2">Aplicação focada no <strong>design UI</strong> .</h2>
                 <p class="text-muted">De intensa competitividade, buscando sempre tendências 
                   de marcado e do universo produtivo realizando manutenções 
                   de mercado, corrijo possiveis erros de programação, e consumo de dados. 
                   Utilizo técnicas de desenvolvimento 'MOBILE FIRST'.
                 </p>
-                <button type="button" class="btn btn-primary-m rounded-pill"><a class="text-white" href="https://colonialvillage.com.br/" target="_blank" rel="noopener noreferrer">Veja site</a></button>
+                <button type="button" class="btn btn-primary-m rounded-pill zoom-in-out-box"><a class="text-white" href="https://colonialvillage.com.br/" target="_blank" rel="noopener noreferrer">Veja site</a></button>
               </div>
               
           </div>
-          <div class="col-md-5 offset-md-1">
+          <div class="col-md-5 offset-md-1 zoom-in-out-box">
             <a href="https://colonialvillage.com.br/" target="_blank" rel="noopener noreferrer">
               <img src="assets/public/iPhone X (7).png" class="img-colonial" alt="...">
             </a>
@@ -213,7 +288,7 @@
     <div class="row align-items-center">
       <div class="col-md-8 pb-sm-5">
 
-        <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Git Branch.png" alt=""></span>
+        <span class="badge badge-secondary zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Git Branch.png" alt=""></span>
         <h2 class="h1 fs-1  mb-2">Conhecimento em linguagens <strong>Software e Skills.</strong></h2>
         <p class="text-muted">
           Aqui poderá conhecer um poco mais em quais linguagens de programação
@@ -227,14 +302,14 @@
       <div class="row pt-1">
 
         <div class="col">
-          <div class="mb-4">
+          <div class="mb-4  zoom-in-out-box">
             <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/npmjs-line.jpg" alt=""></span>
             <h6 class="title-skills">npm</h6>
             <div class="progress">
               <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <div class="mb-4">
+          <div class="mb-4  zoom-in-out-box">
             <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Curly Brackets File.png" alt=""></span>
             <h6 class="title-skills">css 3</h6>
             <div class="progress">
@@ -244,14 +319,14 @@
         </div>
 
         <div class="col">
-          <div class="mb-4">
+          <div class="mb-4 zoom-in-out-box">
             <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/GitHub.png" alt=""></span>
             <h6 class="title-skills">Github</h6>
             <div class="progress">
               <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <div class="mb-4">
+          <div class="mb-4 zoom-in-out-box">
             <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/B.png" alt=""></span>
             <h6 class="title-skills">bootstrap</h6>
             <div class="progress">
@@ -261,14 +336,14 @@
         </div>
 
         <div class="col">
-          <div class="mb-4">
+          <div class="mb-4 zoom-in-out-box">
             <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Wordpress.png" alt=""></span>
             <h6 class="title-skills">Wordpress</h6>
             <div class="progress">
               <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <div class="mb-4">
+          <div class="mb-4 zoom-in-out-box">
             <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Javascript File.png" alt=""></span>
             <h6 class="title-skills">js</h6>
             <div class="progress">
@@ -278,14 +353,14 @@
         </div>
 
         <div class="col">
-          <div class="mb-4">
+          <div class="mb-4  zoom-in-out-box">
             <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Code File.png" alt=""></span>
             <h6 class="title-skills">html 5</h6>
             <div class="progress">
               <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <div class="mb-4">
+          <div class="mb-4 zoom-in-out-box">
             <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/reactjs-line.png" alt=""></span>
             <h6 class="title-skills">react - Ui</h6>
             <div class="progress">
@@ -300,15 +375,15 @@
   <div class="" id="galery">
     <div class="container pt-2 pb-5">
       <div class="row align-items-center mb-2">
-        <div class="col-md-8">
-        <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Tile.png" alt=""></span>
+        <div class="col-md-8 ">
+        <span class="badge badge-secondary  zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Tile.png" alt=""></span>
           <h2 class="h1 fs-1  mb-2">Protótipos focados na <br> <strong>Criação e Desenvolvimento</strong></h2>
           <p class="text-muted">O mercado atual exige cada vez mais ações diferentes e inovadoras,
             ao inserir em um hambiente da rápidas mudanças tecnológicas.
             Trabalhos desenvolvidos em parcerias em contratação PJ.</p>
             <div class="">
               <!-- <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4"><a class="text-white" href="https://www.figma.com/file/fDtKg5ft2YgCjDxgFcxvHe/olfati" target="_blank" rel="noopener noreferrer">wireframe</a></button> -->
-              <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4"><a class="text-white" href="https://vadevlife.github.io/olfa_theme/" target="_blank" rel="noopener noreferrer">site</a></button>
+              <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4 zoom-in-out-box"><a class="text-white" href="https://vadevlife.github.io/olfa_theme/" target="_blank" rel="noopener noreferrer">Veja Site</a></button>
             </div>
         </div>
         
@@ -316,54 +391,54 @@
       <div class="row">
         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img class="img-slide-swiper" src="assets/public/mockups/job_e-commerce_nike.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img class="img-slide-swiper" src="assets/public/mockups/job_e-commerce_olfati.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img class="img-slide-swiper" src="assets/public/mockups/job_portf_vini.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img class="img-slide-swiper" src="assets/public/mockups/job_siteimovel_colonial.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img class="img-slide-swiper" src="assets/public/mockups/job_luzdoamnha.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img class="img-slide-swiper" src="assets/public/mockups/job_siteagencia.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img class="img-slide-swiper" src="assets/public/mockups/job_criaçao_portf.png" />
             </div>
             
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next zoom-in-out-box"></div>
+          <div class="swiper-button-prev zoom-in-out-box"></div>
         </div>
 
         <div thumbsSlider="" class="swiper mySwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img src="assets/public/mockups/job_e-commerce_nike.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img src="assets/public/mockups/job_e-commerce_olfati.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img src="assets/public/mockups/job_portf_vini.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img src="assets/public/mockups/job_siteimovel_colonial.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img src="assets/public/mockups/job_luzdoamnha.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img src="assets/public/mockups/job_siteagencia.png" />
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide zoom-in-out-box">
               <img src="assets/public/mockups/job_criaçao_portf.png" />
             </div>
           </div>
@@ -375,33 +450,33 @@
   <div id="skills_design" class="container pt-2 pb-5">
     <div class="row pt-5 align-items-center pt-5">
       <div class="col-md-8 pb-5">
-        <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Edit.png" alt=""></span>
+        <span class="badge badge-secondary  zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Edit.png" alt=""></span>
         <h2 class="h1 fs-1  mb-2">Aqui poderá conhecer em quais <strong>programas utilizo!</strong></h2>
         <p class="text-muted">Para Design UI E-commerce. Nike-theme de desenvolvida em parceria, 
           nestes links teram a Interface criada e o desenvolvimento (peça em produção).
         </p>
         <div class="d-flex">
-          <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4"><a class="text-white" href="https://vadevlife.github.io/niketheme/" target="_blank" rel="noopener noreferrer">site</a></button>
+          <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4 zoom-in-out-box"><a class="text-white" href="https://vadevlife.github.io/niketheme/" target="_blank" rel="noopener noreferrer">Veja Site</a></button>
         </div>
           
       </div>
     
       <div class="col-md-3">
-        <div class="mt-4 mb-4">
+        <div class="mt-4 mb-4  zoom-in-out-box">
         <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Figma.png" alt=""></span>
           <h6 class="title-skills">Figma</h6>
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
-        <div class="mb-4">
+        <div class="mb-4 zoom-in-out-box">
         <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Ps.png" alt=""></span>
           <h6 class="title-skills">Photoshop</h6>
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
-        <div class="mb-4">
+        <div class="mb-4 zoom-in-out-box">
         <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/adobe-xd.png" alt=""></span>
           <h6 class="title-skills">Adobe</h6>
           <div class="progress">
@@ -416,7 +491,7 @@
       <div class="row align-items-center">
         <div class="col-md-6 mb-4">
 
-          <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Smiling Face.png" alt=""></span>
+          <span class="badge badge-secondary zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Smiling Face.png" alt=""></span>
           <h2 class="h1 fs-1  mb-2">Prazer, me chamo <strong>Thais Mariano</strong></h2>
           
           <p class="text-muted">
@@ -424,10 +499,9 @@
             Cuido de tudo relativo ao bom funcionamento do site, tenho conhecimento em criação montagem e manutenção do site, exelente noção estética e responsabilidade no cumprimento dos prazos.
           </p>
         
-          <!-- <button type="button" class="btn btn-primary-m rounded-pill"><a class="text-white" href="https://www.linkedin.com/in/thais-mariano-712340216/"  target="_blank" rel="noopener noreferrer">Veja Mais!</a></button> -->
           <div class="d-flex justifu-content-evenly">
-            <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4"><a class="text-white" href="assets/public/curriculo_thais_designweb-apresentaçao.pdf"  target="_blank" rel="noopener noreferrer">apresentação</a></button>
-            <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4"><a class="text-white" href="assets/public/curriculo_thais_designweb.pdf"  target="_blank" rel="noopener noreferrer">Curriculo</a></button>
+            <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4 zoom-in-out-box"><a class="text-white" href="assets/public/curriculo_thais_designweb-apresentaçao.pdf"  target="_blank" rel="noopener noreferrer">Apresentação</a></button>
+            <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4 zoom-in-out-box"><a class="text-white" href="assets/public/curriculo_thais_designweb.pdf"  target="_blank" rel="noopener noreferrer">Curriculo</a></button>
           </div>
         </div>
         <div class="col-md-5 offset-md-1 text-center">
@@ -442,34 +516,34 @@
     <div class="container pt-5 pb-5 text-white">
       <div class="row align-items-center text-center">
         <div class="col-md-6 offset-md-1 text-center mb-4 pb-sm-4">
-          <a class="link" href="index.html">
+          <a class="link zoom-in-out-box" href="index.html">
             <img class="img-fluid log" src="assets/public/logo_new_branco.png" alt="">
           </a>
           <div class="d-flex justify-content-evenly pt-2">
 
-            <a class="icon-social" href="https://www.linkedin.com/in/thais-mariano-712340216/"  target="_blank" rel="noopener noreferrer"><img src="assets/public/icons_nav/Linkedin.png" alt=""></a>
-            <a class="icon-social" href="https://twitter.com/Thas71977957"  target="_blank" rel="noopener noreferrer"><img src="assets/public/icons_nav/Twitter.png" alt=""></a>
-            <a class="icon-social" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><img src="assets/public/icons_nav/WhatsApp.png" alt=""></a>
+            <a class="icon-social zoom-in-out-box" href="https://www.linkedin.com/in/thais-mariano-712340216/"  target="_blank" rel="noopener noreferrer"><img src="assets/public/icons_nav/Linkedin.png" alt=""></a>
+            <a class="icon-social zoom-in-out-box" href="https://twitter.com/Thas71977957"  target="_blank" rel="noopener noreferrer"><img src="assets/public/icons_nav/Twitter.png" alt=""></a>
+            <a class="icon-social zoom-in-out-box" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><img src="assets/public/icons_nav/WhatsApp.png" alt=""></a>
 
           </div>
 
-          <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4 mt-4 mb-4"><a class="text-white" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"> <img src="assets/public/icons_nav/WhatsApp.png" alt="">  Fale comigo</a></button>
+          <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4 mt-4 mb-4 zoom-in-out-box"><a class="text-white" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"> <img src="assets/public/icons_nav/WhatsApp.png" alt="">  Fale comigo</a></button>
 
         </div>
         <div class="col-md-5 text-center">
           <div class="row  d-flex justify-content-center">
             <div class="">
-              <a class="nav-link text-white" href="index.html">Home</a>
+              <a class="nav-link text-white  zoom-in-out-box" href="index.html">Home</a>
   
-              <a class="nav-link text-white" href="#dev">Novo</a>
+              <a class="nav-link text-white zoom-in-out-box" href="#dev">Novo</a>
             
-              <a class="nav-link text-white" href="#galery">Galeria</a>
+              <a class="nav-link text-white zoom-in-out-box" href="#galery">Galeria</a>
             
-              <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+              <a class="nav-link text-white zoom-in-out-box" href="#habilidades">Habilidades</a>
                
-              <a class="nav-link text-white" href="#skills">Skills</a>
+              <a class="nav-link text-white zoom-in-out-box" href="#skills">Skills</a>
             
-              <a class="nav-link text-white" href="#sobre_mim">Sobre</a>
+              <a class="nav-link text-white zoom-in-out-box" href="#sobre_mim">Sobre</a>
             
             </div>
           </div>
@@ -484,7 +558,7 @@
       </div>
       <hr>
       <div class="row">
-        <p class="text-center">
+        <p class="text-center zoom-in-out-box">
           <a class="text-muted" href="https://www.linkedin.com/in/thais-mariano-712340216/" target="_blank" rel="noopener noreferrer">
             Designer Ui UX - Thais Mariano.
           </a>
