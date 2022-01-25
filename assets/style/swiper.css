@@ -85,7 +85,7 @@ body {
 
 .swiper-slide img {
   display: block;
-  width: 40%;
+  width: 60% !important;
   height: auto;
   object-fit: cover;
 }
