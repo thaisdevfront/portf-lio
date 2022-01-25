@@ -89,12 +89,20 @@ body {
   height: auto;
   object-fit: cover;
 }
+
+
+@media(min-width:320px){
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: black;
+    padding-right: 118px !important;
+}
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
   content: 'next';
   color: black;
-  padding-right: 348px !important;
+  padding-right: 348px ;
 }
-
+}
 @media(max-width:1024px){
   .swiper-slide img {
   display: block;
@@ -102,5 +110,6 @@ body {
   height: auto;
   object-fit: cover;
 }
+
 }
 
