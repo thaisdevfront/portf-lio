@@ -89,10 +89,10 @@ body {
   height: auto;
   object-fit: cover;
 }
-
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
   content: 'next';
   color: black;
+  padding-right: 348px !important;
 }
 
 @media(max-width:1024px){
