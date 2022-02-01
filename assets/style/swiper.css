@@ -97,11 +97,18 @@ body {
     color: black;
     padding-right: 118px !important;
 }
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+/* .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
   content: 'next';
   color: black;
   padding-right: 348px ;
+} */
+
 }
+@media (min-width: 320px){
+ .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: black;
+    padding-right: 30px !important;}
 }
 @media(max-width:1024px){
   .swiper-slide img {
