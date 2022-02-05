@@ -76,7 +76,7 @@ body {
 .mySwiper .swiper-slide {
   width: 25%;
   height: 80%;
-  opacity: 0.4;
+  /* opacity: 0.4; */
 }
 
 .mySwiper .swiper-slide-thumb-active {
@@ -85,7 +85,7 @@ body {
 
 .swiper-slide img {
   display: block;
-  width: 60% !important;
+  width: 102% !important;
   height: auto;
   object-fit: cover;
 }
@@ -113,7 +113,7 @@ body {
 @media(max-width:1024px){
   .swiper-slide img {
   display: block;
-  width: 40%;
+  width: 40% ;
   height: auto;
   object-fit: cover;
 }

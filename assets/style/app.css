@@ -36,19 +36,15 @@ span.swiper-pagination-progressbar-fill .bg-main{
     }
 
     /* botoes */
-    button.navbar-toggler {
-        padding-left: 175px;
-    }
     .btn-primary-m {
-        padding: 0.375rem 2.75rem;
+        padding: 8px 30px;
         background-color: #c5a8b0;
         color: white;
     }
-    .btn-primary-m {
-        padding: 5px 36px;
-        background-color: black;
-        color: white;
+    button.navbar-toggler {
+        padding-left: 175px;
     }
+    
     .navbar-nav .nav-link {
         padding-right: 30px;
         padding-left: 30px;
@@ -58,7 +54,7 @@ span.swiper-pagination-progressbar-fill .bg-main{
     
    /* links */
     a:link {
-        font-size: 14px;
+        /* font-size: 14px; */
         text-decoration: none;
     }
     /* alinhamento */
@@ -148,6 +144,7 @@ a.nav-link.text-white.btn-m {
 
 }
 
+
 .text-main {
     /* font-size:8vw; */
     color: #C5A8B0;
@@ -197,7 +194,7 @@ button:focus:not(:focus-visible) {
     background-color: rgb(24, 24, 24) !important;
 }
 .btn-primary-m {
-    padding: 10px 60px;
+    padding: 8px 30px;
     background-color: #c5a8b0;
     color: white;
 }
