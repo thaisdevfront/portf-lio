@@ -8,14 +8,12 @@ footer{
 *{
 transition:.3s;
 }
-            
-span.swiper-pagination-progressbar-fill .bg-main{
-    color: #C5A8B0 !important;
+      
+img.icons {
+    width: 30px;
+    margin-right: 13px;
+}
 
-}
-.swiper-button-prev {
-    color: black;
-}
 
 @media (min-width: 320px) {
     
@@ -26,13 +24,7 @@ span.swiper-pagination-progressbar-fill .bg-main{
         background-repeat: no-repeat; 
         background-size: cover;
     }
-    .swiper-slide img {
-        display: block;
-        width: 30%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
+  
     /* tamanho de fonts */
     .title-m h1.h1-m.fs-1.mt-3.mb-2 {
         font-size: 2rem !important;
@@ -121,10 +113,6 @@ a.nav-link.text-white.btn-m {
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
-    }
-    /* imagens */
-    img.img-colonial {
-        width: 400px;
     }
    
     /* tamanho de font */
