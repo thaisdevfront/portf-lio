@@ -8,9 +8,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link href="assets/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/style/bootstrap.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="assets/style/swiper.css">
+    <link rel="stylesheet" href="assets/style/slide.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> -->
+    <!-- <link rel="stylesheet" href="assets/style/swiper.css"> -->
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style/app.css">
@@ -33,9 +36,9 @@
 <header>
   <nav class="navbar navbar-expand-md bg-ligth">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img class="img-nav" src="assets/public/logo.png" alt=""></a>
+      <a class="navbar-brand" href="index.html"><img class="img-nav" src="assets/public/logo_new_branco.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><img src="assets/public/icons_nav/menu.png" alt="icon-menu"></span>
+        <span class="navbar-toggler-icon"><i class="fas fa-angle-down text-white"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav align-items-center">
@@ -55,8 +58,8 @@
 <body>
 
   <div id="hipe">
-    <div class="container pt-5 pb-5">
-      <div class="row">
+    <div class="container pt-5 pb-5 ">
+      <div class="row  w3-animate-left">
         <div class="col-md-7">
           <div class="title-m mt-2">
             <h1 class="h1 fs-1 text-main mb-2">
@@ -84,7 +87,7 @@
   </div>
 
   <div id="habilidades"> 
-    <div class="container pt-3 pb-3">
+    <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-md-9">
           
@@ -183,88 +186,81 @@
        
     </div>
   </div>
- 
-    <div id="galery" class="container pt-3 pb-3">
+  <div id="galery" class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-md-8 mb-5">
+        <span class="badge badge-secondary  zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Tile.png" alt=""></span>
+          <h2 class="h1 fs-1 text-main mb-2">Ações diferentes e inovadoras de<br> <strong>rápidas mudanças tecnológicas</strong></h2>
+          <!-- <p class="text-muted">
+            Clicando na imagem, você será direcionado para o Behance, para ver a interface toda de cada mockup.
+          </p> -->
+        </div>
+
+        <div class="w3-content" style="max-width:1200px">
+         
+          <img class="mySlides" src="assets/public/jobs/banners/olfati.png" style="width:100%;display:none">
+          <img class="mySlides" src="assets/public/jobs/banners/Colonial Village ll.png" style="width:100%">
+          <img class="mySlides" src="assets/public/jobs/banners/Nike-theme-2022.png" style="width:100%;display:none">
+          
       
-      <div class="row">
-        <div class="col-md-8 mt-5 mb-3">
-          <span class="badge badge-secondary  zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Tile.png" alt=""></span>
-            <h2 class="h1 fs-1 text-main mb-2">Ações diferentes e inovadoras de<br> <strong>rápidas mudanças tecnológicas</strong></h2>
-            <p class="text-muted">
-              Clicando na imagem, você será direcionado para o Behance, para ver a interface toda de cada mockup.
-            </p>
-          </div>
-          <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-            <div class="swiper-wrapper" id="swiper-wrapper-43bd1a03f51ad7fc" aria-live="polite">
-              <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 9" style="width: 1024px;">
-                <a class="text-center" href="https://www.behance.net/gallery/135853319/Nike-theme-E-commeerce" target="_blank" rel="noopener noreferrer">
-                <img class="img-slide-swiper" src="assets/public//jobs/banners/Nike-theme-2022.png" />
-                </a></div>
-              <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 9" style="width: 1024px;">
-                <a class="text-center" href="https://www.behance.net/gallery/135852043/Olfati" target="_blank" rel="noopener noreferrer">
-                <img class="img-slide-swiper" src="assets/public/jobs/banners/olfati.png" />
-                </a></div>
-              <div class="swiper-slide" role="group" aria-label="3 / 9" style="width: 1024px;">
-                <a class="text-center" href="https://www.behance.net/gallery/135856877/Portfolio-Vinicius-2021" target="_blank" rel="noopener noreferrer">
-                <img class="img-slide-swiper" src="assets/public/jobs/banners/Portfólio Vinicius.png" />
-                </a></div>
-              <div class="swiper-slide" role="group" aria-label="4 / 9" style="width: 1024px;">
-                <a class="text-center" href="https://www.behance.net/gallery/135855283/Landing-page-Colonial-Village-ll" target="_blank" rel="noopener noreferrer">
-                <img class="img-slide-swiper" src="assets/public/jobs/banners/Colonial Village ll.png" />
-                </a></div>
-              <div class="swiper-slide" role="group" aria-label="5 / 9" style="width: 1024px;">
-                <a class="text-center" href="https://www.behance.net/gallery/135857059/Instituto-luz-do-amanha?" target="_blank" rel="noopener noreferrer">
-                <img class="img-slide-swiper" src="assets/public/jobs/banners/instituto luz do amanha.png" />
-                </a></div>
-              <div class="swiper-slide" role="group" aria-label="6 / 9" style="width: 1024px;">
-                <a class="text-center" href="https://www.behance.net/gallery/135853635/Agencia-TypeAs" target="_blank" rel="noopener noreferrer">
-                  <img class="img-slide-swiper" src="assets/public/jobs/banners/Agenci_typeAs.png" />
-                  </a>
-              </div>
-              <div class="swiper-slide" role="group" aria-label="7 / 9" style="width: 1024px;">
-                <a class="text-center" href="https://www.behance.net/gallery/135851517/Portolio" target="_blank" rel="noopener noreferrer">
-                <img class="img-slide-swiper" src="assets/public/jobs/banners/Portfolio-2022.png" />
-                </a></div>
-              <div class="swiper-slide" role="group" aria-label="8 / 9" style="width: 1024px;">
-                <a class="text-center" href="https://www.behance.net/gallery/135856109/Theme-lacost" target="_blank" rel="noopener noreferrer">
-                <img class="img-slide-swiper" src="assets/public/jobs/banners/Theme-Lacoste.png" />
-                </a></div>
+          <div class="w3-row-padding w3-section">
+            <div class="w3-col s4">
+              <img class="demo w3-opacity w3-hover-opacity-off" src="assets/public/jobs/banners/olfati.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
             </div>
-            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-43bd1a03f51ad7fc" aria-disabled="false"></div>
-            <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-43bd1a03f51ad7fc" aria-disabled="true"></div>
-          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-          
-    </div>
-    
-  </div>
-
-  <div id="sobre_mim">
-    <div class="container pt-5 pb-5">
-      <div class="row align-items-center">
-        <div class="col-md-6 mb-4">
-
-          <span class="badge badge-secondary zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Smiling Face.png" alt=""></span>
-          <h2 class="h1 fs-1 text-main mb-2">Prazer, me chamo <strong>Thais Mariano.</strong></h2>
-          
-          <p class="text-muted">
-           Sou uma pessoa criativa, descontraida, comunicativa, gosto de tudo relativo a experiência e aparencia de uma empresa (identidade visual da marca), gosto que inventar (moda) como dia minha mãe, rsrsrs.
-           Sou bem comunicativa com minha equipe, falo tudo oque acredito que possa trazer de melhor pro produto, trasendo algo sempre novo e que dê vontade de utilizar em seu dia a dia.
-           Criar peças digitáis é eu fazendo minha parte, de tentar ser melhor para o mundo a cada dia, pois assim posso tornar mais fácil o produto para todos.  
-          </p>
-        
-          <div class="d-flex justifu-content-evenly">
-            <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4"><a class="text-white" href="assets/public/curriculo_thais_designweb-apresentaçao.pdf"  target="_blank" rel="noopener noreferrer">Apresentação</a></button>
-            <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4"><a class="text-white" href="assets/public/curriculo_thais_designweb.pdf"  target="_blank" rel="noopener noreferrer">Curriculo</a></button>
+            <div class="w3-col s4">
+              <img class="demo w3-opacity w3-hover-opacity-off" src="assets/public/jobs/banners/Colonial Village ll.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+            </div>
+            <div class="w3-col s4">
+              <img class="demo w3-opacity w3-hover-opacity-off" src="assets/public/jobs/banners/Nike-theme-2022.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+            </div>
+            
           </div>
+          
         </div>
-        <div class="col-md-5 offset-md-1 text-center">
-          <a class="zoom" href="index.html">
-          <img src="assets/public/image 2.png" style="width: 100%; border-radius: 15px;" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>  
+      
+
+
+
+        <!-- <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+          <div class="swiper-wrapper" id="swiper-wrapper-43bd1a03f51ad7fc" aria-live="polite">
+            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 9" style="width: 1024px;">
+              <a class="text-center" href="https://www.behance.net/gallery/135853319/Nike-theme-E-commeerce" target="_blank" rel="noopener noreferrer">
+              <img class="img-slide-swiper" src="assets/public//jobs/banners/Nike-theme-2022.png" />
+              </a></div>
+            <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 9" style="width: 1024px;">
+              <a class="text-center" href="https://www.behance.net/gallery/135852043/Olfati" target="_blank" rel="noopener noreferrer">
+              <img class="img-slide-swiper" src="assets/public/jobs/banners/olfati.png" />
+              </a></div>
+            <div class="swiper-slide" role="group" aria-label="3 / 9" style="width: 1024px;">
+              <a class="text-center" href="https://www.behance.net/gallery/135856877/Portfolio-Vinicius-2021" target="_blank" rel="noopener noreferrer">
+              <img class="img-slide-swiper" src="assets/public/jobs/banners/Portfólio Vinicius.png" />
+              </a></div>
+            <div class="swiper-slide" role="group" aria-label="4 / 9" style="width: 1024px;">
+              <a class="text-center" href="https://www.behance.net/gallery/135855283/Landing-page-Colonial-Village-ll" target="_blank" rel="noopener noreferrer">
+              <img class="img-slide-swiper" src="assets/public/jobs/banners/Colonial Village ll.png" />
+              </a></div>
+            <div class="swiper-slide" role="group" aria-label="5 / 9" style="width: 1024px;">
+              <a class="text-center" href="https://www.behance.net/gallery/135857059/Instituto-luz-do-amanha?" target="_blank" rel="noopener noreferrer">
+              <img class="img-slide-swiper" src="assets/public/jobs/banners/instituto luz do amanha.png" />
+              </a></div>
+            <div class="swiper-slide" role="group" aria-label="6 / 9" style="width: 1024px;">
+              <a class="text-center" href="https://www.behance.net/gallery/135853635/Agencia-TypeAs" target="_blank" rel="noopener noreferrer">
+                <img class="img-slide-swiper" src="assets/public/jobs/banners/Agenci_typeAs.png" />
+                </a>
+            </div>
+            <div class="swiper-slide" role="group" aria-label="7 / 9" style="width: 1024px;">
+              <a class="text-center" href="https://www.behance.net/gallery/135851517/Portolio" target="_blank" rel="noopener noreferrer">
+              <img class="img-slide-swiper" src="assets/public/jobs/banners/Portfolio-2022.png" />
+              </a></div>
+            <div class="swiper-slide" role="group" aria-label="8 / 9" style="width: 1024px;">
+              <a class="text-center" href="https://www.behance.net/gallery/135856109/Theme-lacost" target="_blank" rel="noopener noreferrer">
+              <img class="img-slide-swiper" src="assets/public/jobs/banners/Theme-Lacoste.png" />
+              </a></div>
+          </div>
+        </div> -->
+  
+</div> 
+  </div>
 
   <div id="skills" class="container pt-5 pb-5">
     <div class="row align-items-center">
@@ -355,6 +351,41 @@
     </div>
   </div>
  
+  <div id="sobre_mim">
+    <div class="container pt-5 pb-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4">
+
+          <span class="badge badge-secondary zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Smiling Face.png" alt=""></span>
+          <h2 class="h1 fs-1 text-main mb-2">Prazer, me chamo <strong>Thais Mariano.</strong></h2>
+          
+          <p class="text-muted">
+           Sou uma pessoa criativa, descontraida, comunicativa, gosto de tudo relativo a experiência e aparencia de uma empresa (identidade visual da marca), gosto que inventar (moda) como dia minha mãe, rsrsrs.
+           Sou bem comunicativa com minha equipe, falo tudo oque acredito que possa trazer de melhor pro produto, trasendo algo sempre novo e que dê vontade de utilizar em seu dia a dia.
+           Criar peças digitáis é eu fazendo minha parte, de tentar ser melhor para o mundo a cada dia, pois assim posso tornar mais fácil o produto para todos.  
+          </p>
+        
+          <div >
+            <a class="text-white" href="assets/public/curriculo_thais_designweb.pdf"  target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4">Curriculo</button>
+          </a>
+          </div>
+        </div>
+        <div class="col-md-5 offset-md-1 text-center">
+          <a class="zoom" href="index.html">
+          <img src="assets/public/image 2.png" style="width: 100%; border-radius: 15px;" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  
+ 
+   
+
+ 
+ 
   <footer>
     <div class="container pt-5 text-white">
       <div class="row align-items-center text-center">
@@ -413,7 +444,42 @@
   
     <!-- Optional JavaScript; choose one of the two! -->
   <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/start.js"></script>
+
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ 
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <script>
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+      }
+      x[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " w3-opacity-off";
+    }
+    </script>
+
   <!-- <script>
     var swiper = new Swiper(".mySwiper-m", {
       slidesPerView: 3,
@@ -424,14 +490,14 @@
       },
     });
   </script> -->
-  <script>
+  <!-- <script>
     var swiper = new Swiper(".mySwiper", {
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
     });
-  </script>
+  </script> -->
 
 
 </body>
