@@ -1,6 +1,9 @@
-/* body{
-    background-color:#272727;
-} */
+body{
+    background-color: #111;
+}
+footer{
+    background-color: #111 !important;
+}
 
 *{
 transition:.3s;
@@ -22,6 +25,12 @@ span.swiper-pagination-progressbar-fill .bg-main{
         background-position: bottom; 
         background-repeat: no-repeat; 
         background-size: cover;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 30%;
+        height: 100%;
+        object-fit: cover;
     }
     
     /* tamanho de fonts */
@@ -175,8 +184,8 @@ h1.h1.fs-1.mb-2{
 }
 
 h6.title-skills {
-    color: #181818;
-    /* color: #c5a8b0; */
+    /* color: #181818; */
+    color: #c5a8b0;
 }
 
 p {
@@ -262,16 +271,13 @@ a:link {
     background-color: white;
 }
 
-footer {
-    background-color: black;
-
-}
 .progress-bar {
     background-color: #c5a8b0;
 }
 .progress {
     display: flex;
     height: 2px;
+    background-color: #111111;
 }
 
 
@@ -307,10 +313,6 @@ nav.navbar.fixed-bottom.d-flex.d-block.d-sm-none{
     justify-content: center;
 }
 
-footer {
-    background-color: black;
-
-}
 img.img-fluid.log-m {
     width: 80px;
 }
@@ -331,7 +333,7 @@ a.nav-link.text-white.btn-m {
     padding-right: 20px;
 }
 a.nav-link {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 div#navbarNavAltMarkup {
     justify-content: end;
