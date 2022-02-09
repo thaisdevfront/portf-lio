@@ -59,7 +59,9 @@ img.icons {
         text-decoration: none;
     }
     /* alinhamento */
-    
+    .text-end {
+        text-align: center !important;
+    }
     .d-flex {
         display: flex!important;
         justify-content: space-between;
