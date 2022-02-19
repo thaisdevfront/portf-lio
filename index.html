@@ -6,13 +6,14 @@
     <title>Designer UX UI - Design da Web - Thais Mariano</title>
 
     <link href="assets/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="assets/style/bootstrap.css">
     <link rel="stylesheet" href="assets/style/slide.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/bootstrap.css">
     <link rel="stylesheet" href="assets/style/app.css">
     <link rel="stylesheet" href="assets/style/animation.css">
+    <link rel="stylesheet" href="assets/style/menu.css">
     <link rel="stylesheet" href="assets/style/zoom.css">
 
     
@@ -29,61 +30,85 @@
 
 </head>
 <header>
-  <nav class="navbar navbar-expand-md bg-ligth">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img class="img-nav" src="assets/public/logo_new_branco.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="fas fa-angle-down text-white"></i></span>
+
+  <nav class="navbar navbar-expand-lg bg-tranparted w-100">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="img-nav" src="assets/public/logo_new_branco.png" alt="">
+      </a>
+      <button id="btn-menu" onclick="Menu()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fas fa-angle-down text-white"></i>
+        </span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav align-items-center">
-          <a class="nav-link active  zoom" aria-current="page" href="index.html">Inicial</a>
-          <a class="nav-link  zoom" href="#galery">Projetos</a>
-          <a class="nav-link  zoom" href="#sobre_mim">Skills</a>
-          <a class="nav-link  zoom" href="#skills">Sobre</a>
+      <div id="collapse" class="collapse navbar-collapse"  >
+        <div class="navbar-nav">
+        <h5 class="text-main d-block d-lg-none p-4 pt-3 pb-3">Menu</h5>
 
-          <button type="button" class="btn btn-primary-m nav-link rounded-pill"><a class="text-white" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"> <img src="assets/public/icons_nav/WhatsApp.png" alt="">  Contrate</a></button>
+          <a class="nav-link active  zoom" aria-current="page" href="index.html"><i class="fas fa-home d-block d-lg-none"></i>    Inicial</a>
+          <a class="nav-link  zoom" href="#galery"><i class="fas fa-rocket d-block d-lg-none"></i>    Projetos</a>
+          <a class="nav-link  zoom" href="#skills"><i class="fas fa-cog d-block d-lg-none"></i>    Skills</a>
+          <a class="nav-link  zoom border-0" href="#sobre_mim"><i class="fas fa-user d-block d-lg-none"></i>     Sobre</a>
+           <a class="btn btn-whatsapp rounded-pill" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i>    Contrate</a> 
+          
+          <div class="p-5 d-block d-lg-none">
+            <h6 class="text-center text-main">Redes Sociais</h6>
+            <div class="d-flex pt-3">
+              
+              <a class="icon-social  zoom" href="https://www.linkedin.com/in/thais-mariano-712340216/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+              <a class="icon-social zoom" href="https://twitter.com/Thas71977957"  target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+              <a class="icon-social zoom" href="https://www.behance.net/thaisdevfrontend"  target="_blank" rel="noopener noreferrer"><i class="fab fa-behance"></i></a>
+              <a class="icon-social zoom" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+              
+            </div>
+          </div>
 
-        </div>
+          </div>
       </div>
     </div>
   </nav> 
+  
 </header>
 
 <body>
-
   <div id="hipe">
-    <div class="container pt-5 pb-5 ">
+   
+    <div class="container pt-5 pb-5">
       <div class="row  w3-animate-left">
-        <div class="col-md-7">
+        <div class="col-md-9">
           <div class="title-m mt-2">
-            <h1 class="h1 fs-1 text-main mb-2">
+            <h1 class="h1 fs-1 text-main text-white mb-4 pt-5">
                
-               Amor pela Criação<br>porfólio <strong>Design criativo.</strong>
+              <strong class="text-ma">Amor </strong> pela <strong class="text-ma">Criação</strong> <br>
+              porfólio <strong class="text-ma">Design criativo.</strong>
               
             </h1>
-            <p class="text-main">
-              <strong>Lojas</strong> e <strong>Sites</strong> incriveis.
+            <p class="text-main text-white">
+              <h6 class="card-subtitle mb-2 text-muted">Lojas e Sites incriveis.</h6>
             </p>
           </div>
           <div class="col-md-3 social-midia">
-            <div class="d-flex pt-2">
-
-              <a class="icon-social  zoom" href="https://www.linkedin.com/in/thais-mariano-712340216/"  target="_blank" rel="noopener noreferrer"><img class="icons" src="assets/public/icons_nav/Linkedin.png" alt=""></a>
-              <a class="icon-social zoom" href="https://twitter.com/Thas71977957"  target="_blank" rel="noopener noreferrer"><img class="icons" src="assets/public/icons_nav/Twitter.png" alt=""></a>
-              <a class="icon-social zoom" href="https://www.behance.net/thaisdevfrontend"  target="_blank" rel="noopener noreferrer"><img class="icons" src="assets/public/icons_nav/Behance.png" alt=""></a>
-              <a class="icon-social zoom" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><img class="icons" src="assets/public/icons_nav/WhatsApp.png" alt=""></a>
+            <div class="d-flex  w-50">
+              
+              <a class="icon-social  zoom" href="https://www.linkedin.com/in/thais-mariano-712340216/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in text-white"></i></a>
+              <a class="icon-social zoom" href="https://twitter.com/Thas71977957"  target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter text-white"></i></a>
+              <a class="icon-social zoom" href="https://www.behance.net/thaisdevfrontend"  target="_blank" rel="noopener noreferrer"><i class="fab fa-behance text-white"></i></a>
+              <a class="icon-social zoom" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp text-white"></i></a>
               
             </div>
+             
+            </div>
+  
   
           </div>
         </div>
+        <div class="row pt-3 pb-5">
+          <div class="col text-center">
+          <a href="#habilidades"><i class="fas fa-angle-down text-white"></i></a>
+        </div>
+        </div>
       </div>
-      <div class="row pt-5">
-        <div class="col text-center">
-        <a href="#habilidades"><i class="fas fa-angle-down text-white"></i></a>
-      </div>
-      </div>
+     
     </div>
   </div>
 
@@ -92,109 +117,69 @@
       <div class="row">
         <div class="col-md-9">
           
-          <span class="badge badge-secondary zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Rocket.png" alt=""></span>
-          <h2 class="h1 fs-1 text-main mb-2">Saiba como posso contribuir<br>em  <strong>sua empresa.</strong>.</h2>
-          <p class="text-muted">Tenho orgulho de contribuir 
-            para o sucesso de nossos clientes, parceiros e empresas.</p>
+          <span class="badge badge-secondary zoom-in-out-box"><i class="fas fa-rocket i-ma"></i></span>
+          <h2 class="h1 fs-1 text-m text-main mb-4">Saiba como posso contribuir<br>para  <strong class="text-ma">sua empresa.</strong></h2>
+          <h6 class="card-subtitle text-muted mb-2">Tenho orgulho de contribuir 
+            para o sucesso de nossos <br> clientes, parceiros e empresas.</h6>
 
         </div>
 
       </div>
       <div class="row">
-        <div class="col-md-6 mt-4 mb-4 p-4">
+        <div class="col-md-4 mt-4 mb-4 p-4">
           
-          <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
-          <h5 class="card-title">Design <strong>Ux Ui</strong></h5>
-          <h6 class="card-subtitle mb-2 text-muted">experiência e interface do usuário.</h6>
-          <p class="card-text text-muted">Criação de aplicações focadas em soluções inovadoras que impulsionam as necessidades dos usuários 
-            e o crescimento do seu negócio. 
-          </p>
-            <button class="btn btn-primary-m rounded-pill text-white">
-              <a class="text-white" target="_blank" href="https://vadevlife.github.io/niketheme/" rel="noopener noreferrer">
-                Veja Material
-            </a>
-          </button>
-
-        </div>
-        <div class="col-md-6 mt-4 mb-4 p-4">
-          
-          <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
-          <h5 class="card-title"><strong>Web Design</strong></h5>
+          <span class="badge badge-secondary pb-3 zoom-in-out-box"><i class="fas fa-comment i-ma"></i></span>
+          <h5 class="card-title">Design da <strong class="pry-ma">Web</strong></h5>
           <h6 class="card-subtitle mb-2 text-muted">Interfaces  focadas para E-commerce.</h6>
           <p class="card-text text-muted">Crio soluções digitáis, com  possibilidades de proporciona melhorias para sua empresa 
             ou modelo de negócio.
             </p>
-              <button class="btn btn-primary-m rounded-pill">
-                <a class="text-white" href="https://vadevlife.github.io/olfa_theme/" target="_blank" rel="noopener noreferrer">
+              <button class="btn btn-primary-main rounded-pill" href="https://vadevlife.github.io/olfa_theme/" target="_blank" rel="noopener noreferrer">
                   Veja Material
-                </a>
               </button>
 
         </div>
-        <!-- <div class="col mt-4 mb-4 p-4">
-          <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
-                <h5 class="card-title ">Design <strong>Gráfico!</strong></h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                  Logo - Ariel Tatto.
-                </h6>
-                <p class="card-text text-muted">
-                  Logo - Criado e finalizado para identidade visual de uma tatuadora, Com excelentes elogios :)
-                </p>
-                <div class="row">
-                  <button type="button" class="btn btn-primary-m rounded-pill text-white">
-                    <a class="text-white" target="_blank" href="https://www.behance.net/gallery/135895489/Logo-Ariel-Tattoo" rel="noopener noreferrer">
-                      Veja Material
-                    </a>
-                  </button>
-                </div>
-        </div>
-        <div class="col mt-4 mb-4 p-4">
-          <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
-          <h5 class="card-title ">Design <strong>Gráfico!</strong></h5>
-          <h6 class="card-subtitle mb-2 text-muted">
-            Material - Cantão Da Barra.
-          </h6>
-          <p class="card-text text-muted">
-            Logo - Uniforme - Panfleto - Criado e finalizado para identidade visual para empresa de Lazer, Com excelentes elogios :)
-          </p>
-          <div class="row">
-            <button type="button" class="btn btn-primary-m rounded-pill text-white">
-              <a class="text-white" target="_blank" href="https://www.behance.net/gallery/135897309/Logo-MockUp-Panfleto-Cantao-da-Barra?" rel="noopener noreferrer">
-                Veja Material
-              </a>
-            </button>
-          </div>
-        </div>
-        <div class="col mt-4 mb-4 p-4">
-          <span class="badge badge-secondary pb-3 zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Square Chat.png" alt=""></span>
-          <h5 class="card-title ">Design <strong>Gráfico!</strong></h5>
-          <h6 class="card-subtitle mb-2 text-muted">
-            Panfleto - Passeio com Pets.
-          </h6>
-          <p class="card-text text-muted">
-            Panfleto - Criado e finalizado para identidade visual para empresa de Lazer, Com excelentes elogios :)
-          </p>
-          <div class="row">
-            <button type="button" class="btn-primary-m rounded-pill text-white">
-              <a class="text-white" target="_blank" href="https://www.behance.net/gallery/135899623/Panfleto-Passeio-com-Pets?" rel="noopener noreferrer">
-                Veja Material
-              </a>
-            </button>
-          </div>
+
+        <div class="col-md-4 mt-4 mb-4 p-4">
           
-        </div> -->
+          <span class="badge badge-secondary pb-3 zoom-in-out-box"><i class="fas fa-comment i-ma"></i></span>
+          <h5 class="card-title">Design <strong class="pry-ma">Ux Ui</strong></h5>
+          <h6 class="card-subtitle mb-2 text-muted">experiência e interface do usuário.</h6>
+          <p class="card-text text-muted">Criação de aplicações focadas em soluções inovadoras que impulsionam as necessidades dos usuários 
+            e o crescimento do seu negócio. 
+          </p>
+            <button class="btn btn-primary-main rounded-pill" target="_blank" href="https://vadevlife.github.io/niketheme/" rel="noopener noreferrer">
+                Veja Material
+          </button>
+
+        </div>
+       
+        <div class="col-md-4 mt-4 mb-4 p-4">
+          
+          <span class="badge badge-secondary pb-3 zoom-in-out-box"><i class="fas fa-comment i-ma"></i></span>
+          <h5 class="card-title">Dev. <strong class="pry-ma">front end</strong></h5>
+          <h6 class="card-subtitle mb-2 text-muted">conexão entre funcionalidades com o usuário.</h6>
+          <p class="card-text text-muted">
+            Desenvolvo interfaces, focadas na funcionalidade, experiência e objetivos do usuário dentro do produto.
+            </p>
+              <button class="btn btn-primary-main rounded-pill" href="https://vadevlife.github.io/olfa_theme/" target="_blank" rel="noopener noreferrer">
+                  Veja Material
+              </button>
+
+        </div>
+        
       </div>
        
     </div>
   </div>
-  <div id="galery" class="container pt-5 pb-5">
-    <div class="row">
-      <div class="col-md-8 mb-5">
-        <span class="badge badge-secondary  zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Tile.png" alt=""></span>
-          <h2 class="h1 fs-1 text-main mb-2">Veja <strong>projetos incriveis <br> que </strong>já participei.</h2>
-          <h5 class="text-muted">
-            Veja Recentes
-          </h5>
+  <div id="galery-skills">
+    <div class="container pt-5 pb-5">
+    <div  id="galery" class="row pb-5">
+      <div class="col-md-9 mb-5">
+        <span class="badge badge-secondary  zoom-in-out-box"><i class="fas fa-rocket i-ma"></i></span>
+          <h2 class="h1 fs-1 text-main text-white mb-4">Veja <strong class="text-ma">projetos incríveis</strong> <br>que já participei.</h2>
+         
+          <h6 class="card-subtitle text-muted mb-2">Veja Recentes.</h6>
          
         </div>
 
@@ -229,130 +214,81 @@
           
         </div>
       
-
-
-
-        <!-- <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-          <div class="swiper-wrapper" id="swiper-wrapper-43bd1a03f51ad7fc" aria-live="polite">
-            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 9" style="width: 1024px;">
-              <a class="text-center" href="https://www.behance.net/gallery/135853319/Nike-theme-E-commeerce" target="_blank" rel="noopener noreferrer">
-              <img class="img-slide-swiper" src="assets/public//jobs/banners/Nike-theme-2022.png" />
-              </a></div>
-            <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 9" style="width: 1024px;">
-              <a class="text-center" href="https://www.behance.net/gallery/135852043/Olfati" target="_blank" rel="noopener noreferrer">
-              <img class="img-slide-swiper" src="assets/public/jobs/banners/olfati.png" />
-              </a></div>
-            <div class="swiper-slide" role="group" aria-label="3 / 9" style="width: 1024px;">
-              <a class="text-center" href="https://www.behance.net/gallery/135856877/Portfolio-Vinicius-2021" target="_blank" rel="noopener noreferrer">
-              <img class="img-slide-swiper" src="assets/public/jobs/banners/Portfólio Vinicius.png" />
-              </a></div>
-            <div class="swiper-slide" role="group" aria-label="4 / 9" style="width: 1024px;">
-              <a class="text-center" href="https://www.behance.net/gallery/135855283/Landing-page-Colonial-Village-ll" target="_blank" rel="noopener noreferrer">
-              <img class="img-slide-swiper" src="assets/public/jobs/banners/Colonial Village ll.png" />
-              </a></div>
-            <div class="swiper-slide" role="group" aria-label="5 / 9" style="width: 1024px;">
-              <a class="text-center" href="https://www.behance.net/gallery/135857059/Instituto-luz-do-amanha?" target="_blank" rel="noopener noreferrer">
-              <img class="img-slide-swiper" src="assets/public/jobs/banners/instituto luz do amanha.png" />
-              </a></div>
-            <div class="swiper-slide" role="group" aria-label="6 / 9" style="width: 1024px;">
-              <a class="text-center" href="https://www.behance.net/gallery/135853635/Agencia-TypeAs" target="_blank" rel="noopener noreferrer">
-                <img class="img-slide-swiper" src="assets/public/jobs/banners/Agenci_typeAs.png" />
-                </a>
-            </div>
-            <div class="swiper-slide" role="group" aria-label="7 / 9" style="width: 1024px;">
-              <a class="text-center" href="https://www.behance.net/gallery/135851517/Portolio" target="_blank" rel="noopener noreferrer">
-              <img class="img-slide-swiper" src="assets/public/jobs/banners/Portfolio-2022.png" />
-              </a></div>
-            <div class="swiper-slide" role="group" aria-label="8 / 9" style="width: 1024px;">
-              <a class="text-center" href="https://www.behance.net/gallery/135856109/Theme-lacost" target="_blank" rel="noopener noreferrer">
-              <img class="img-slide-swiper" src="assets/public/jobs/banners/Theme-Lacoste.png" />
-              </a></div>
-          </div>
-        </div> -->
-  
 </div> 
+
+<div id="skills" class="row align-items-center">
+  <div class="col-md-9 pb-sm-3">
+
+    <span class="badge badge-secondary zoom-in-out-box"><i class="fas fa-cog i-ma"></i></span>
+    <h2 class="h1 fs-1 text-main text-white  mb-4"><strong class="text-ma">Encontre aqui</strong> skills que <br> ajude seu negócio.</h2>
+    <h6 class="card-subtitle mb-2 text-muted"> Aqui poderá conhecer um pouco mais em quais linguagens e plataformas
+      em que mais me familiarizo. Tenho conhecimento
+      em desenvolver, criar e modificar plataformas para uso do cliente 
+      com o objetivo de otimizar a eficiência operacional.</h6>
+
   </div>
-
-  <div id="skills" class="container pt-5 pb-5">
-    <div class="row align-items-center">
-      <div class="col-md-8 pb-sm-3">
-
-        <span class="badge badge-secondary zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Git Branch.png" alt=""></span>
-        <h2 class="h1 fs-1 text-main mb-2"><strong>Encontre aqui</strong> skills que <br> ajude seu negócio.</h2>
-        <p class="text-muted">
-          Aqui poderá conhecer um pouco mais em quais linguagens e plataformas
-          em que mais me familiarizo. Tenho conhecimento
-          em desenvolver, criar e modificar plataformas para uso do cliente 
-          com o objetivo de otimizar a eficiência operacional.
-        </p>
-
-      </div>
-      <div class="col-md-6">
-          
-          <div class="mb-4 ">
-            <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Code File.png" alt=""></span>
-            <h6 class="title-skills">Html 5</h6>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-           <div class="mb-4 ">
-            <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Curly Brackets File.png" alt=""></span>
-            <h6 class="title-skills">Css 3</h6>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          
-           <div class="mb-4">
-            <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/B.png" alt=""></span>
-            <h6 class="title-skills">Bootstrap</h6>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="mb-4">
-            <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Wordpress.png" alt=""></span>
-            <h6 class="title-skills">Wordpress</h6>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-         
-          <div class="mb-4">
-            <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Javascript File.png" alt=""></span>
-            <h6 class="title-skills">Js</h6>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-md-6">
-          <div class="mb-4 ">
-            <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Figma.png" alt=""></span>
-              <h6 class="title-skills">Figma</h6>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="mb-4">
-              <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/Ps.png" alt=""></span>
-                <h6 class="title-skills">Photoshop</h6>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="mb-4">
-                <span class="badge badge-secondary"><img class="img-span" src="assets/public/icons_nav/adobe-xd.png" alt=""></span>
-                  <h6 class="title-skills">Adobe</h6>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-        </div>
+  <div class="row pt-5">
+    <div class="col-md-6">
       
+      <div class="mb-4 ">
+        <h6 class="title-skills pry-ma">Html 5</h6>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+       <div class="mb-4 ">
+        <h6 class="title-skills pry-ma">Css 3</h6>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      
+       <div class="mb-4">
+        <h6 class="title-skills pry-ma">Bootstrap</h6>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      <div class="mb-4">
+        <h6 class="title-skills pry-ma">Wordpress</h6>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+     
+      <div class="mb-4">
+        <h6 class="title-skills pry-ma">Js</h6>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+
     </div>
+    <div class="col-md-6">
+      <div class="mb-4 ">
+          <h6 class="title-skills pry-ma">Figma</h6>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-4">
+            <h6 class="title-skills pry-ma">Photoshop</h6>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="mb-4">
+              <h6 class="title-skills pry-ma">Adobe</h6>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+    </div>
+  
+  </div>
+  
+</div>
+</div>
   </div>
  
   <div id="sobre_mim">
@@ -360,8 +296,12 @@
       <div class="row align-items-center">
         <div class="col-md-6 mb-4">
 
-          <span class="badge badge-secondary zoom-in-out-box"><img class="img-span" src="assets/public/icons_nav/Smiling Face.png" alt=""></span>
-          <h2 class="h1 fs-1 text-main mb-2">Sobre <strong>Mim.</strong></h2>
+          <span class="badge badge-secondary zoom-in-out-box"><i class="fas fa-user i-ma"></i></span>
+          <h2 class="h1 fs-1 text-main mb-4">Sobre <strong class="text-ma">Mim.</strong></h2>
+          <h6 class="card-subtitle text-muted mb-2">
+           Meu momento profissional
+          </h6>
+
           
           <p class="text-muted">
             Prazer me chamo Thais Mariano, tenho 22 anos, moro atualmente em Ubatuba-SP, sou estudante e profissional nas áreas de Web Design e Design UX-UI. <br>
@@ -371,14 +311,15 @@
           </p>
         
           <div >
-            <a class="text-white" href="assets/public/curriculo_thais_designweb.pdf"  target="_blank" rel="noopener noreferrer">
-            <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4">Faça Donwload CV</button>
-          </a>
+            
           </div>
         </div>
-        <div class="col-md-5 offset-md-1 text-center">
+        <div class="col-md-5 offset-md-1 text-center bg-m">
           <a class="zoom" href="index.html">
           <img src="assets/public/image 2.png" style="width: 100%; border-radius: 15px;" alt="">
+          </a>
+          <a class="text-white" href="assets/public/curriculo_thais_designweb.pdf"  target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-primary-main rounded-pill mt-sm-4">Faça Donwload CV</button>
           </a>
         </div>
       </div>
@@ -390,19 +331,22 @@
       <div class="row align-items-center">
         <div class="row justifu-content-evenly pt-5 pb-5">
           <div class="col-md-8">
-            <h2 class="h1 fs-1 text-main mb-2">Entre em contato comigo, <br> via  <strong>WhatsApp.</strong></h2>
-            <div class="col-md-2 d-flex pt-2">
-  
-              <a class="icon-social  zoom" href="https://www.linkedin.com/in/thais-mariano-712340216/"  target="_blank" rel="noopener noreferrer"><img class="icons" src="assets/public/icons_nav/Linkedin.png" alt=""></a>
-              <a class="icon-social zoom" href="https://twitter.com/Thas71977957"  target="_blank" rel="noopener noreferrer"><img class="icons" src="assets/public/icons_nav/Twitter.png" alt=""></a>
-              <a class="icon-social zoom" href="https://www.behance.net/thaisdevfrontend"  target="_blank" rel="noopener noreferrer"><img class="icons" src="assets/public/icons_nav/Behance.png" alt=""></a>
-              <a class="icon-social zoom" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><img class="icons" src="assets/public/icons_nav/WhatsApp.png" alt=""></a>
+            <h2 class="h1 fs-1 text-main mb-2">Entre em contato comigo, <br> via  <strong class="text-ma">WhatsApp.</strong></h2>
+           
+            <div class="col-md-2 d-flex pt-3  w-25">
+              
+              <a class="icon-social  zoom" href="https://www.linkedin.com/in/thais-mariano-712340216/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in text-white"></i></a>
+              <a class="icon-social zoom" href="https://twitter.com/Thas71977957"  target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter text-white"></i></a>
+              <a class="icon-social zoom" href="https://www.behance.net/thaisdevfrontend"  target="_blank" rel="noopener noreferrer"><i class="fab fa-behance text-white"></i></a>
+              <a class="icon-social zoom" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp text-white"></i></a>
               
             </div>
           </div>
           
           <div class="col-md-4 text-end">
-            <button type="button" class="btn btn-primary-m rounded-pill mt-sm-4 mt-5 mb-5"><a class="text-white" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"> <img src="assets/public/icons_nav/WhatsApp.png" alt="">  Contrate</a></button>
+           <a class="btn btn-whatsapp rounded-pill" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i>    Contrate</a> 
+
+            <!-- <button type="button" class="btn btn-primary-main rounded-pill mt-sm-4" href="https://wa.me/+5512981218831?text="  target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i>  Contrate</button> -->
           </div>
         </div>
         <div class="col-md-4 text-center">
@@ -435,8 +379,7 @@
   
     <!-- Optional JavaScript; choose one of the two! -->
   <script src="assets/js/bootstrap.js"></script>
-  <script src="assets/js/start.js"></script>
-
+  <!-- <script src="assets/js/start.js"></script> -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
  
   <script>
@@ -470,26 +413,40 @@
       dots[slideIndex-1].className += " w3-opacity-off";
     }
     </script>
+    <script>
 
-  <!-- <script>
-    var swiper = new Swiper(".mySwiper-m", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script> -->
-  <!-- <script>
-    var swiper = new Swiper(".mySwiper", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script> -->
 
+      function Menu(){
+        var collapse = document.querySelector(".collapse.navbar-collapse")
+        var collapseID = document.getElementById("collapse") 
+        var btn =  document.getElementById("btn-menu") 
+        var body = document.getElementsByTagName("body")[0]
+        var a = document.querySelectorAll("header .nav-link") 
+
+         
+        for (let index = 0; index < a.length; index++) {
+          const element = a[index];
+          element.onclick=function(){
+            collapseID.setAttribute("view", "false")
+            return body.style.cssText="overflow:auto"
+          }
+           
+           
+        } 
+        if(collapse.getAttribute("view")!=="true"){
+          btn.childNodes[1].innerHTML="<i class='far fa-times-circle text-white '></i>"
+          body.style.cssText="overflow:hidden"
+
+          return collapseID.setAttribute("view","true") 
+        }else{
+          btn.childNodes[1].innerHTML="<i class='fas fa-angle-down text-white '></i>"
+          body.style.cssText="overflow:auto"
+
+          return  collapseID.setAttribute("view", "false")
+
+        }
+      }
+    </script>
 
 </body>
 </html>
