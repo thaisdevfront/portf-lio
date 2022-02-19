@@ -1,19 +1,62 @@
-body{
-    background-color: #111;
+
+@media (max-width: 1024px) {
+    nav{
+        position: absolute ;
+        width: 100%;
+    }
+.navbar-collapse[view="true"]{
+    left:  0% !important;
 }
-footer{
-    background-color: #111 !important;
+.collapse:not(.show) {
+    display: block !important ;
+}
+.collapse.navbar-collapse {
+    background-color: #FFF500;
+    color: #111;
+    position: absolute;
+    width: 80%;
+    left: -100%;
+    height: 100%;
+    top: 0;
+    z-index: 9999;
 }
 
-*{
-transition:.3s;
-}
-      
-img.icons {
-    width: 30px;
-    margin-right: 13px;
+.navbar {
+    position: absolute;
 }
 
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-top: 17px;
+    background-color: #FFF500;
+    height: 100vh;
+}
+a.nav-link {
+    color: rgb(17 17 17);
+    display: flex;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-bottom: 1px solid #e7de01;
+}
+.navbar i {
+margin-right: 25px;
+}
+a.btn i {
+margin: 0 5px;
+}
+a.btn.btn-whatsapp {
+background: black;
+color: white;
+max-width: 160px;
+margin: 20px auto;
+width: 200px;
+}
+
+}
 
 @media (min-width: 320px) {
     
@@ -67,11 +110,34 @@ img.icons {
         justify-content: space-between;
     }
 }
+@media (max-width: 768px) {
+    #hipe {
+        background-image: url(../public/banner-mobile.png);
+        height: 690px;
+        background-position: 0px -65px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
 @media (min-width: 768px) {
-    
+    a.btn.btn-whatsapp {
+        background: #FFF500;
+        color: white;
+        max-width: 90%;
+        margin: 20px auto;
+        width: 200px;
+    }
     #hipe {
         background-image: url(../public/banner.png);
         height: 510px;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div#sobre_mim{
+        background-image: url(../public/sobre.png);
+        height: 500px;
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -105,13 +171,20 @@ a.nav-link.text-white.btn-m {
     padding-left: 38px;
     padding-right: 38px;
 }
+.navbar {
+    /* background-color: #FFF500; */
+   color: #111;
+}
+
+
+
 
 }
 @media (min-width: 1024px){
     
     #hipe {
         background-image: url(../public/banner.png);
-        height: 630px;
+        height: 95vh;
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -139,16 +212,90 @@ a.nav-link.text-white.btn-m {
         width: 180vh;
         /* margin-left: 100px !important; */
     }
+    nav.navbar{
+        position: absolute;
+        align-items: center !important;
+    }
+    .navbar-expand-lg .navbar-nav{
+        align-items: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 3.5rem;
+    }
+    a.btn.btn-whatsapp {
+        color: #111111;
+    }
+    .navbar-collapse {
+        justify-content: end;
+    }
     
+    a.nav-link {
+        color: white;
+    }
+   
 
+}
+
+div#galery-skills{
+    background-color: #111 !important;
+
+}
+footer{
+    background-color: #111 !important;
+}
+
+*{
+transition:.3s;
+}
+.btn {
+    font-size: 14px;
+}      
+img.icons {
+    width: 30px;
+    margin-right: 13px;
+}
+
+
+.i-ma{
+    color: #FFF500;
+    width: 30px;
+}
+
+
+.pry-m{
+    font-family: 'Oswald';
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FFF500;
+}
+.pry-ma{
+    font-family: 'Oswald';
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFF500;
 }
 
 
 .text-main {
     /* font-size:8vw; */
-    color: #C5A8B0;
+    /* color: #C5A8B0; */
+    font-family: 'Oswald';
+    /* font-size: 40px; */
+    text-transform: uppercase;
+}
+.text-m {
+    /* font-size:8vw; */
+    /* color: #C5A8B0; */
     font-family: 'Oswald';
     font-size: 40px;
+    text-transform: uppercase;
+}
+/* strong-title */
+.text-ma {
+    /* font-size:8vw; */
+    color:  #FFF500;
+    font-family: 'Oswald';
+    font-size: 50px;
     text-transform: uppercase;
 }
 
@@ -160,13 +307,13 @@ p.text-main {
 }
 h5.card-title {
    font-family: 'Oswald';
-    color: #C5A8B0;
+    /* color: #C5A8B0; */
     text-transform: uppercase;
 }
 h6.card-subtitle.mb-2.text-muted{
    font-family: 'Oswald';
     text-transform: uppercase;
-    color: #E3D4D8 !important;
+    color:  rgb(253, 228, 83) !important;
 }
 
 h1.h1.fs-1.mb-2{
@@ -175,7 +322,7 @@ h1.h1.fs-1.mb-2{
 
 h6.title-skills {
     /* color: #181818; */
-    color: #c5a8b0;
+    color: #FFF500;
 }
 
 p {
@@ -189,13 +336,25 @@ button:focus:not(:focus-visible) {
     outline: transparent;
     display: contents;
 }
-.btn-primary-m:hover{
+.btn-primary-main:hover{
     background-color: rgb(24, 24, 24) !important;
+    color: #FFF500 !important;
 }
 .btn-primary-m {
     padding: 8px 30px;
-    background-color: #c5a8b0;
+    background-color: #111111;
     color: white;
+}
+.btn-primary-main {
+    padding: 8px 30px;
+    background-color: #FFF500;
+    color: rgb(0, 0, 0);
+}
+a {
+    font-family: 'Oswald';
+    font-size: 14px;
+    color: #111111;
+    text-decoration: underline;
 }
 /* .btn-primary-m {
     padding: 0.375rem 2.75rem;
@@ -203,14 +362,7 @@ button:focus:not(:focus-visible) {
     color: white;
 } */
 .btn button:hover {
-    background-color: rgb(24, 24, 24) !important;
-}
-.swiper-button-next {
-    color: #eeeeee !important;
-}
-
-span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: #eeeeee !important;
+    background-color:#FFF500 !important;
 }
 
 /* links */
@@ -249,20 +401,14 @@ a:link {
 /* imagens */
 
 /* backgrounds */
-#swiper .container {
-    background-color:#eeeeee;
-}
 
-#dev{
-    background-color: white;
-}
 
 #sobre_mim {
     background-color: white;
 }
 
 .progress-bar {
-    background-color: #c5a8b0;
+    background-color: #FFF500;
 }
 .progress {
     display: flex;
@@ -296,6 +442,27 @@ nav.navbar.fixed-bottom.d-flex.d-block.d-sm-none{
     background-color: rgb(0 0 0 / 45%)!important;
 }
 
+@media (min-width: 320px){
+button.navbar-toggler {
+    padding-left: 150px;
+}
+}
+
+/* 
+.collapse.navbar-collapse {
+    background-color: white;
+}
+.collapse:not(.show) {
+    display: block !important;
+    left: -100%;
+    position: relative;
+}
+.show {
+    left: 0;
+}
+ */
+
+
 
 #habilidades .col.mt-2.mb-2 {
     display: flex;
@@ -322,9 +489,7 @@ a.nav-link.text-white.btn-m {
     padding-left: 20px;
     padding-right: 20px;
 }
-a.nav-link {
-    color: rgb(255, 255, 255);
-}
+
 div#navbarNavAltMarkup {
     justify-content: end;
 }
