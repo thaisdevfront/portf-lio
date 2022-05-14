@@ -150,11 +150,10 @@ a:link {
         height: 100vh;
         }
         a.nav-link {
-            color: rgb(17 17 17) !important;
+            color: white(17 17 17) !important;
             display: flex;
             text-transform: uppercase;
             padding: 20px 0;
-            border-bottom: 1px solid #e7de01;
             width: 100%;
         }
         .navbar i {
@@ -164,13 +163,21 @@ a:link {
         margin: 0 5px;
         }
         a.btn.btn-whatsapp {
-            background: #000000;
+            background: gold;
+            color: white;
+            max-width: 90%;
+            margin: 20px auto;
+            width: 200px;
+        }
+        a.btn.btn-whatsapp-m {
+            background: rgb(0, 0, 0) !important;
             color: white;
             max-width: 90%;
             margin: 20px auto;
             width: 200px;
         }
  }
+
 @media (max-width: 1024px) {
    
 }
@@ -302,6 +309,13 @@ p {
 }
 
 /* botoes */
+a.btn.btn-whatsapp-m {
+    background: gold;
+    color: white;
+    max-width: 90%;
+    margin: 20px auto;
+    width: 200px;
+}
 /* botao */
 .btn {
     font-size: 14px;
